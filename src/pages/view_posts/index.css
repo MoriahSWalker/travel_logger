@@ -1,0 +1,42 @@
+#main-div{
+    
+    width: 90%;
+    margin: auto auto;
+    text-align: center;
+}
+
+#post-div{
+    border: solid lightgray 2px;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    padding: 1rem
+                  
+}
+
+
+#button-div{
+   display: flex; 
+   flex-direction: row;
+   justify-content: space-between;
+   margin-bottom: 1rem;
+   
+}
+
+#updatebtn{
+    width: 100%;
+    margin-right: 1rem;
+}
+
+#deletebtn{
+    width: 100%;
+    margin-left: 1rem;
+
+}
+
+#backbtn{
+    width: 100%;
+}
+
+.input-fields{
+    margin-bottom: 1rem;
+}

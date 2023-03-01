@@ -3,8 +3,11 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
+import "bootstrap/dist/css/bootstrap.min.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Main from "./pages/main";
+import CreatePost from "./pages/create_post";
+import ViewPosts from "./pages/view_posts";
 
 const router = createBrowserRouter([
   {
@@ -14,6 +17,14 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Main />,
+      },
+      {
+        path: "/create",
+        element: <CreatePost />,
+      },
+      {
+        path: "/create/view_posts",
+        element: <ViewPosts />,
       },
     ],
   },
