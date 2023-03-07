@@ -1,0 +1,9 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px
+}
+
+.link-tag{
+    text-decoration: none;
+}

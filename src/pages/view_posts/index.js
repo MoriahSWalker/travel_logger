@@ -64,13 +64,14 @@ const ViewPosts = () => {
   };
   return (
     <div id="main-div">
-      <h1>Displaying Posts</h1>
+      <h1>Edit A Post</h1>
 
       {posts ? (
         <>
           {posts.map((post) => {
             return (
               <div id="post-div" key={post._id}>
+                <img src={post.photo} alt="" />
                 <h3>{post.title}</h3>
                 <h6>{post.caption}</h6>
                 <p>{post.description}</p>
@@ -116,7 +117,6 @@ const ViewPosts = () => {
             <FormGroup>
               <FormControl
                 className="input-fields"
-                type="file"
                 placeholder="photo"
                 name="photo"
                 value={updatedPost.photo ? updatedPost.photo : ""}

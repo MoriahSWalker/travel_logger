@@ -1,0 +1,32 @@
+div#blog-post-div{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 540px;
+    align-items: center;
+    overflow: scroll;
+    
+}
+
+
+
+img{
+    max-height: 400px;
+    max-width: 300px;
+}
+
+div#post-container{
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-content: space-evenly;
+    align-items: center;
+
+}
+
+h1{
+    padding-bottom: 20px;
+}

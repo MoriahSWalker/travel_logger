@@ -55,8 +55,8 @@ const CreatePost = () => {
         <FormGroup>
           <FormControl
             name="photo"
-            value={""}
-            type="file"
+            value={post.photo}
+            placeholder="photo url"
             onChange={handleChange}
           />
           <FormControl

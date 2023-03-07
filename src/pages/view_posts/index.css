@@ -1,6 +1,6 @@
 #main-div{
     
-    width: 90%;
+    width: 75%;
     margin: auto auto;
     text-align: center;
 }
@@ -39,4 +39,8 @@
 
 .input-fields{
     margin-bottom: 1rem;
+}
+
+img{
+    max-width: 300px;
 }

@@ -33,7 +33,9 @@ mongoose.connect(connectionString, {
 mongoose.connection.once("open", () => {
   console.log("connected to mongo");
 });
-
+// app.get("/", (req, res) => {
+//   console.log("good request");
+// });
 // CREATE ROUTE
 app.post("/create", async (req, res) => {
   const {
