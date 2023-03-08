@@ -34,7 +34,11 @@ const ViewPosts = () => {
       .then((res) => console.log(res))
       .catch((err) => console.log(err));
 
-    window.location.reload();
+    // window.location.reload();
+    // make a new array without this post
+    // set posts to new array
+    let newArray = [...posts].filter((post) => post._id != id);
+    setPosts(newArray);
   };
 
   const updatePost = (post) => {
@@ -60,7 +64,17 @@ const ViewPosts = () => {
       .catch((err) => console.log(err));
 
     handleClose();
-    window.location.reload();
+    // window.location.reload();
+    // make new array (...posts)
+    // look for correct post and change data and set post to new array
+    let newArray = posts.map((post) => {
+      if (updatedPost._id == post._id) {
+        return updatedPost;
+      } else {
+        return post;
+      }
+    });
+    setPosts(newArray);
   };
   return (
     <div id="main-div">

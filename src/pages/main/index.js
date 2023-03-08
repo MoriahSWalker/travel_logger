@@ -26,6 +26,7 @@ const Main = () => {
             <div id="blog-post-div" key={post._id}>
               <img src={post.photo} alt="" />
               <h2>{post.title}</h2>
+              <h4>{post.caption}</h4>
               <p>{post.description}</p>
             </div>
           );
