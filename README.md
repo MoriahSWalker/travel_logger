@@ -1,6 +1,7 @@
 # Introduction
 
 The Travel Logger app is an online Travel Blog/ Journal. Currently, anyone that travels to this page will be able to add their travel experiences to the blog to share with others. 
+[![Screenshot-2023-03-08-at-11-43-33-AM.png](https://i.postimg.cc/4NvJQN7D/Screenshot-2023-03-08-at-11-43-33-AM.png)](https://postimg.cc/hfjWSn0s)
 ## Technologies Used
 
 Axios
